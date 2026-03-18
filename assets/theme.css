@@ -1,0 +1,22 @@
+.stApp { 
+    background: linear-gradient(135deg, #0e1117 0%, #161b22 100%); 
+}
+
+div[data-testid="stMetric"] {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.stTabs [data-baseweb="tab-list"] { 
+    gap: 20px; 
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 50px; 
+    background-color: transparent;
+    border-radius: 10px 10px 0px 0px; 
+    padding-top: 10px;
+}
